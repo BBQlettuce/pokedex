@@ -8,6 +8,7 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     this.pokemon = new Pokedex.Collections.Pokemon();
 
     this.$pokeList.on("click", "li.poke-list-item", this.selectPokemonFromList.bind(this));
+    this.$newPoke.on("submit", this.submitPokemonForm.bind(this));
 
     this.refreshPokemon();
   },
@@ -34,12 +35,12 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
   renderPokemonDetail: function(pokemon) {
     var $detail = $("<div class='detail'></div>");
     var pokeAttrs = pokemon.attributes;
-    console.log(pokeAttrs);
+    // console.log(pokeAttrs);
     var $img = $("<img src=" + pokeAttrs.image_url + ">");
     $detail.append($img);
 
     for (var attr in pokeAttrs) {
-      if (attr !== "image_url"){
+      if (attr !== "image_url") {
         $detail.append($("<p>" + attr + ": " + pokeAttrs[attr] + "</p>"));
       }
     }
@@ -51,6 +52,26 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     var pokeid = $(event.currentTarget).data("id");
     var chosenPoke = this.pokemon.get(pokeid);
     this.renderPokemonDetail(chosenPoke);
+  },
+
+  createPokemon: function(attributes, callback) {
+    var that = this;
+    var pokeToCreate = new Pokedex.Models.Pokemon();
+    pokeToCreate.save(attributes, {
+      success: function() {
+        this.pokemon.add(pokeToCreate);
+        this.addPokemonToList(pokeToCreate);
+      }.bind(that)
+    });
+  },
+
+  submitPokemonForm: function(event) {
+    event.preventDefault();
+    var $form = $(event.currentTarget);
+    // console.log($form.find(":input"));
+    var formToJson = $form.serializeJSON();
+    console.log(formToJson);
+    this.createPokemon(formToJson);
   }
 
 });
