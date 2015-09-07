@@ -10,7 +10,6 @@ Pokedex.Models.Pokemon = Backbone.Model.extend({
 
   parse: function(payload) {
     if (payload.toys) {
-      console.log(payload.toys);
       this.toys().set(payload.toys);
       delete(payload.toys);
     }

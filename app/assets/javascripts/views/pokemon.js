@@ -43,9 +43,29 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
         $dl.append($("<dt>" + attr + "</dt>" + "<dd>" + pokeAttrs[attr] + "</dd>"));
       }
     }
-
     $detail.append($dl);
+
+    // create a toys list
+    var $toys = $("<ul class='toys'></ul>");
+    $detail.append($toys);
+
+    // fetch to get toys
+    pokemon.fetch({
+      success: function(p) {
+        p.toys().forEach(this.addToyToList.bind(this));
+      }.bind(this)
+    });
+
     this.$pokeDetail.html($detail)
+  },
+
+  addToyToList: function(toy) {
+    $tli = $("<li class='toy-list-item'><dl>" +
+              "<dt>name</dt>" + "<dd>" + toy.get('name') + "</dd>" +
+              "<dt>happiness</dt>" + "<dd>" + toy.get('happiness') + "</dd>" +
+              "<dt>price</dt>" + "<dd>" + toy.get('price') + "</dd>" +
+              "</dl></li>");
+    this.$pokeDetail.find(".toys").append($tli);
   },
 
   selectPokemonFromList: function(event) {
