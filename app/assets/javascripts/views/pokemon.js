@@ -18,14 +18,13 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     $pokeli.addClass("poke-list-item");
     $pokeli.data({id: pokemon.get("id")});
     this.$pokeList.append($pokeli);
-    // console.log(pokemon)
   },
 
   refreshPokemon: function() {
     this.pokemon.fetch({
       success: function(pokedex) {
         pokedex.models.forEach(this.addPokemonToList.bind(this))
-      }
+      }.bind(this)
     });
   },
 
@@ -36,12 +35,16 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     var $img = $("<img src=" + pokeAttrs.image_url + ">");
     $detail.append($img);
 
+    // create a description list
+    var $dl = $("<dl></dl>");
+
     for (var attr in pokeAttrs) {
       if (attr !== "image_url") {
-        $detail.append($("<p>" + attr + ": " + pokeAttrs[attr] + "</p>"));
+        $dl.append($("<dt>" + attr + "</dt>" + "<dd>" + pokeAttrs[attr] + "</dd>"));
       }
     }
 
+    $detail.append($dl);
     this.$pokeDetail.html($detail)
   },
 
