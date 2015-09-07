@@ -10,6 +10,7 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     this.$pokeList.on("click", "li.poke-list-item", this.selectPokemonFromList.bind(this));
     this.$pokeDetail.on("click", "li.toy-list-item", this.selectToyFromList.bind(this));
     this.$newPoke.on("submit", this.submitPokemonForm.bind(this));
+    this.$toyDetail.on("change", ".toy-change-box", this.reassignToy.bind(this));
 
     this.refreshPokemon();
   },
@@ -104,7 +105,10 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     $detail.append($toyimg);
 
     // create select box
-    $selectBox = $("<select></select>");
+    $selectBox = $("<select class='toy-change-box'></select>");
+    $selectBox.data({toyID: toyid, pokemonID: pokeid});
+
+    // populate the select box
     this.pokemon.fetch({
       success: function(pokedex) {
         pokedex.models.forEach(function(pokemon) {
@@ -134,5 +138,17 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     var chosenToy = toys.get(toyid);
 
     this.renderToyDetail(chosenToy, toyid, pokeid);
+  },
+
+  reassignToy: function(event) {
+    event.preventDefault();
+    var $selectBox = $(event.currentTarget);
+    console.log($selectBox);
+    console.log("old pokeid:" + $selectBox.data("pokemonID"));
+    console.log("toyid:" + $selectBox.data("toyID"));
+    console.log("selected poke:" + $selectBox.val());
+
+
   }
+
 });
