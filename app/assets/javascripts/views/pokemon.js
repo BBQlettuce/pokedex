@@ -8,6 +8,7 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     this.pokemon = new Pokedex.Collections.Pokemon();
 
     this.$pokeList.on("click", "li.poke-list-item", this.selectPokemonFromList.bind(this));
+    this.$pokeDetail.on("click", "li.toy-list-item", this.selectToyFromList.bind(this));
     this.$newPoke.on("submit", this.submitPokemonForm.bind(this));
 
     this.refreshPokemon();
@@ -59,16 +60,9 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     this.$pokeDetail.html($detail)
   },
 
-  addToyToList: function(toy) {
-    $tli = $("<li class='toy-list-item'><dl>" +
-              "<dt>name</dt>" + "<dd>" + toy.get('name') + "</dd>" +
-              "<dt>happiness</dt>" + "<dd>" + toy.get('happiness') + "</dd>" +
-              "<dt>price</dt>" + "<dd>" + toy.get('price') + "</dd>" +
-              "</dl></li>");
-    this.$pokeDetail.find(".toys").append($tli);
-  },
 
   selectPokemonFromList: function(event) {
+    event.preventDefault();
     var pokeid = $(event.currentTarget).data("id");
     var chosenPoke = this.pokemon.get(pokeid);
     this.renderPokemonDetail(chosenPoke);
@@ -94,4 +88,21 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     this.createPokemon(formAttrs.pokemon, this.renderPokemonDetail.bind(this));
   }
 
+  addToyToList: function(toy) {
+    $tli = $("<li class='toy-list-item'><dl>" +
+              "<dt>name</dt>" + "<dd>" + toy.get('name') + "</dd>" +
+              "<dt>happiness</dt>" + "<dd>" + toy.get('happiness') + "</dd>" +
+              "<dt>price</dt>" + "<dd>" + toy.get('price') + "</dd>" +
+              "</dl></li>");
+    this.$pokeDetail.find(".toys").append($tli);
+  },
+
+  // renderToyDetail: function(toy) {
+  //   $detail = $("<div class='detail'></div>");
+  //
+  // },
+  //
+  // selectToyFromList: function(event) {
+  //   event.preventDefault();
+  // },
 });
