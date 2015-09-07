@@ -1,9 +1,9 @@
 Pokedex.Views.Pokemon = Backbone.View.extend({
   initialize: function () {
-    this.$pokeList = this.$el.find('.pokemon-list');
-    this.$pokeDetail = this.$el.find('.pokemon-detail');
-    this.$newPoke = this.$el.find('.new-pokemon');
-    this.$toyDetail = this.$el.find('.toy-detail');
+    this.$pokeList = this.$('.pokemon-list');
+    this.$pokeDetail = this.$('.pokemon-detail');
+    this.$newPoke = this.$('.new-pokemon');
+    this.$toyDetail = this.$('.toy-detail');
 
     this.pokemon = new Pokedex.Collections.Pokemon();
 
@@ -57,9 +57,8 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
       }.bind(this)
     });
 
-    this.$pokeDetail.html($detail)
+    this.$pokeDetail.html($detail);
   },
-
 
   selectPokemonFromList: function(event) {
     event.preventDefault();
@@ -86,23 +85,34 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     // console.log($form.find(":input"));
     var formAttrs = $form.serializeJSON();
     this.createPokemon(formAttrs.pokemon, this.renderPokemonDetail.bind(this));
-  }
+  },
 
   addToyToList: function(toy) {
+    // console.log(toy);
     $tli = $("<li class='toy-list-item'><dl>" +
               "<dt>name</dt>" + "<dd>" + toy.get('name') + "</dd>" +
               "<dt>happiness</dt>" + "<dd>" + toy.get('happiness') + "</dd>" +
               "<dt>price</dt>" + "<dd>" + toy.get('price') + "</dd>" +
               "</dl></li>");
+    $tli.data({toyID: toy.get("id"), pokemonID: toy.get("pokemon_id")});
     this.$pokeDetail.find(".toys").append($tli);
   },
 
-  // renderToyDetail: function(toy) {
-  //   $detail = $("<div class='detail'></div>");
-  //
-  // },
-  //
-  // selectToyFromList: function(event) {
-  //   event.preventDefault();
-  // },
+  renderToyDetail: function(toy) {
+    $detail = $("<div class='detail'></div>");
+    $toyimg = $("<img src=" + toy.get("image_url") + ">");
+    $detail.append($toyimg);
+
+    this.$toyDetail.html($detail);
+  },
+
+  selectToyFromList: function(event) {
+    event.preventDefault();
+    var toyid = $(event.currentTarget).data("toyID");
+    var pokeid = $(event.currentTarget).data("pokemonID");
+    var toys = this.pokemon.get(pokeid).toys();
+    var chosenToy = toys.get(toyid);
+
+    this.renderToyDetail(chosenToy);
+  }
 });
