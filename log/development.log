@@ -8903,3 +8903,2258 @@ Processing by PokemonController#create as JSON
   Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
   Rendered pokemon/show.json.jbuilder (12.6ms)
 Completed 200 OK in 63ms (Views: 55.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/?pokemon%5Bname%5D=&pokemon%5Bimage_url%5D=&pokemon%5Bpoke_type%5D=bug&pokemon%5Battack%5D=&pokemon%5Bdefense%5D=&pokemon%5Bmoves%5D%5B%5D=&pokemon%5Bmoves%5D%5B%5D=" for ::1 at 2015-09-07 14:09:30 -0400
+Processing by StaticPagesController#root as HTML
+  Parameters: {"pokemon"=>{"name"=>"", "image_url"=>"", "poke_type"=>"bug", "attack"=>"", "defense"=>"", "moves"=>["", ""]}}
+  Rendered static_pages/root.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 205ms (Views: 204.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-07 14:09:30 -0400
+
+
+Started GET "/assets/application.self-6f3c5f000433bfd7fda4aabecf7308978ffd71729e44d6235645078d4594781a.css?body=1" for ::1 at 2015-09-07 14:09:30 -0400
+
+
+Started GET "/assets/backbone.self-0977290d5e68ce40d516cd4dc3965586680024e51399f0ee54ee8ed3a99b1506.js?body=1" for ::1 at 2015-09-07 14:09:30 -0400
+
+
+Started GET "/assets/underscore.self-b84a7a5ac0e8afc4f176b95606590bfc56044eeae9286097bdee013a6909fde5.js?body=1" for ::1 at 2015-09-07 14:09:30 -0400
+
+
+Started GET "/assets/jquery.serializejson.min.self-3ac442468b3826db492ffaaea434d85fd719fdc12bf972b262fb32446a51913d.js?body=1" for ::1 at 2015-09-07 14:09:30 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-09-07 14:09:30 -0400
+
+
+Started GET "/assets/pokedex.self-fafe4b47fef69182ef6d856fee14df4dfb57914ebb99ff9a83db09d2fe2de93c.js?body=1" for ::1 at 2015-09-07 14:09:30 -0400
+
+
+Started GET "/assets/models/pokemon.self-85fe5c8c461b12dd6d7dedc0a1446103a5086d6f403a0599d4aaf2a415d70f5b.js?body=1" for ::1 at 2015-09-07 14:09:30 -0400
+
+
+Started GET "/assets/views/pokemon.self-c9322c5b3cea288052d34b03fbc6da003d346110de321d7f05d0fd16ef080ea9.js?body=1" for ::1 at 2015-09-07 14:09:30 -0400
+
+
+Started GET "/assets/collections/pokemon.self-05274281e8a8767d531effde3fbbb9863900f4eeab86cb4ca47c386b07e490d4.js?body=1" for ::1 at 2015-09-07 14:09:30 -0400
+
+
+Started GET "/assets/application.self-b5567fb0cb73f9d4ecd4fa178bbc995d9efe2b53da5e5bf4ca587adb307de5b1.js?body=1" for ::1 at 2015-09-07 14:09:30 -0400
+
+
+Started GET "/pokemon" for ::1 at 2015-09-07 14:09:30 -0400
+Processing by PokemonController#index as JSON
+  [1m[35mPokemon Load (1.7ms)[0m  SELECT "pokemons".* FROM "pokemons"
+  Rendered pokemon/_pokemon.json.jbuilder (0.3ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.3ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.4ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (0.1ms)
+  Rendered pokemon/index.json.jbuilder (128.8ms)
+Completed 200 OK in 144ms (Views: 141.9ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/pokemon" for ::1 at 2015-09-07 14:09:54 -0400
+Processing by PokemonController#create as JSON
+  Parameters: {"pokemon"=>{"name"=>"newpoke2", "image_url"=>"http://upload.wikimedia.org/wikipedia/en/9/92/Pok%C3%A9mon_episode_1_screenshot.png", "poke_type"=>"fighting", "attack"=>"43534", "defense"=>"1231", "moves"=>["qq", "pp"]}}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "pokemons" ("image_url", "attack", "defense", "name", "poke_type", "moves", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["image_url", "http://upload.wikimedia.org/wikipedia/en/9/92/Pok%C3%A9mon_episode_1_screenshot.png"], ["attack", 43534], ["defense", 1231], ["name", "newpoke2"], ["poke_type", "fighting"], ["moves", "[\"qq\", \"pp\"]"], ["created_at", "2015-09-07 18:09:54.771806"], ["updated_at", "2015-09-07 18:09:54.771806"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  Rendered pokemon/_pokemon.json.jbuilder (0.2ms)
+  Rendered pokemon/show.json.jbuilder (1.4ms)
+Completed 200 OK in 59ms (Views: 53.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/pokemon_snaps/012.png" for ::1 at 2015-09-07 14:19:14 -0400
+
+
+Started GET "/?pokemon%5Bname%5D=&pokemon%5Bimage_url%5D=&pokemon%5Bpoke_type%5D=bug&pokemon%5Battack%5D=&pokemon%5Bdefense%5D=&pokemon%5Bmoves%5D%5B%5D=&pokemon%5Bmoves%5D%5B%5D=" for ::1 at 2015-09-07 14:20:02 -0400
+Processing by StaticPagesController#root as HTML
+  Parameters: {"pokemon"=>{"name"=>"", "image_url"=>"", "poke_type"=>"bug", "attack"=>"", "defense"=>"", "moves"=>["", ""]}}
+  Rendered static_pages/root.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 377ms (Views: 377.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/views/pokemon.self-7e286ccdbf1ef0ffca0245efcd9ebccc96b5fbdafa9894c38dfc822643dd9f8f.js?body=1" for ::1 at 2015-09-07 14:20:03 -0400
+
+
+Started GET "/assets/underscore.self-b84a7a5ac0e8afc4f176b95606590bfc56044eeae9286097bdee013a6909fde5.js?body=1" for ::1 at 2015-09-07 14:20:03 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-07 14:20:03 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-09-07 14:20:03 -0400
+
+
+Started GET "/assets/application.self-6f3c5f000433bfd7fda4aabecf7308978ffd71729e44d6235645078d4594781a.css?body=1" for ::1 at 2015-09-07 14:20:03 -0400
+
+
+Started GET "/assets/jquery.serializejson.min.self-3ac442468b3826db492ffaaea434d85fd719fdc12bf972b262fb32446a51913d.js?body=1" for ::1 at 2015-09-07 14:20:03 -0400
+
+
+Started GET "/assets/backbone.self-0977290d5e68ce40d516cd4dc3965586680024e51399f0ee54ee8ed3a99b1506.js?body=1" for ::1 at 2015-09-07 14:20:03 -0400
+
+
+Started GET "/assets/pokedex.self-fafe4b47fef69182ef6d856fee14df4dfb57914ebb99ff9a83db09d2fe2de93c.js?body=1" for ::1 at 2015-09-07 14:20:03 -0400
+
+
+Started GET "/assets/models/pokemon.self-85fe5c8c461b12dd6d7dedc0a1446103a5086d6f403a0599d4aaf2a415d70f5b.js?body=1" for ::1 at 2015-09-07 14:20:03 -0400
+
+
+Started GET "/assets/collections/pokemon.self-05274281e8a8767d531effde3fbbb9863900f4eeab86cb4ca47c386b07e490d4.js?body=1" for ::1 at 2015-09-07 14:20:03 -0400
+
+
+Started GET "/assets/application.self-b5567fb0cb73f9d4ecd4fa178bbc995d9efe2b53da5e5bf4ca587adb307de5b1.js?body=1" for ::1 at 2015-09-07 14:20:03 -0400
+
+
+Started GET "/pokemon" for ::1 at 2015-09-07 14:20:03 -0400
+Processing by PokemonController#index as JSON
+  [1m[35mPokemon Load (1.5ms)[0m  SELECT "pokemons".* FROM "pokemons"
+  [1m[36mToy Load (33.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 1]]
+  Rendered toys/_toy.json.jbuilder (0.8ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (400.8ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 2]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.7ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 3]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 4]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 5]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 6]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 7]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 8]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 9]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.4ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 10]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 11]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 12]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 13]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.7ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 14]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 15]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 16]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 17]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 18]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 19]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 20]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 21]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 22]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 23]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 24]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.7ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 25]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 26]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 27]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 28]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.7ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 29]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.7ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 30]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 31]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 32]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 33]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 34]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 35]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 36]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 37]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.3ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 38]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 39]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 40]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 41]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 42]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 43]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 44]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 45]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 46]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 47]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 48]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 49]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 50]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 51]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 52]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 53]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.7ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 54]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 55]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 56]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 57]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 58]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 59]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.7ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 60]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 61]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 62]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 63]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.7ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 64]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 65]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 66]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 67]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 68]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 69]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 70]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 71]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 72]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 73]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 74]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 75]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 76]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 77]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 78]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 79]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 80]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 81]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 82]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 83]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 84]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 85]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 86]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 87]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 88]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 89]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 90]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 91]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 92]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 93]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 94]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 95]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 96]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 97]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 98]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 99]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 100]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.4ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 101]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.3ms)
+  Rendered toys/_toy.json.jbuilder (0.3ms)
+  Rendered pokemon/_pokemon.json.jbuilder (6.2ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 102]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.5ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 103]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.4ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 104]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 105]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 106]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 107]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 108]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 109]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 110]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 111]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 112]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 113]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 114]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 115]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 116]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 117]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 118]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 119]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 120]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 121]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 122]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.3ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.4ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 123]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 124]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 125]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.1ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 126]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.1ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 127]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.2ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 128]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.0ms)
+  Rendered pokemon/index.json.jbuilder (932.2ms)
+Completed 200 OK in 1049ms (Views: 963.3ms | ActiveRecord: 85.3ms)
+
+
+Started POST "/pokemon" for ::1 at 2015-09-07 14:20:25 -0400
+Processing by PokemonController#create as JSON
+  Parameters: {"pokemon"=>{"name"=>"newpoke3", "image_url"=>"http://upload.wikimedia.org/wikipedia/en/9/92/Pok%C3%A9mon_episode_1_screenshot.png", "poke_type"=>"grass", "attack"=>"5", "defense"=>"5", "moves"=>["asdf", "qwer"]}}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "pokemons" ("image_url", "attack", "defense", "name", "poke_type", "moves", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["image_url", "http://upload.wikimedia.org/wikipedia/en/9/92/Pok%C3%A9mon_episode_1_screenshot.png"], ["attack", 5], ["defense", 5], ["name", "newpoke3"], ["poke_type", "grass"], ["moves", "[\"asdf\", \"qwer\"]"], ["created_at", "2015-09-07 18:20:25.837548"], ["updated_at", "2015-09-07 18:20:25.837548"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 129]]
+  Rendered pokemon/_pokemon.json.jbuilder (2.2ms)
+  Rendered pokemon/show.json.jbuilder (3.0ms)
+Completed 200 OK in 36ms (Views: 30.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/?pokemon%5Bname%5D=&pokemon%5Bimage_url%5D=&pokemon%5Bpoke_type%5D=bug&pokemon%5Battack%5D=&pokemon%5Bdefense%5D=&pokemon%5Bmoves%5D%5B%5D=&pokemon%5Bmoves%5D%5B%5D=" for ::1 at 2015-09-07 14:28:40 -0400
+Processing by StaticPagesController#root as HTML
+  Parameters: {"pokemon"=>{"name"=>"", "image_url"=>"", "poke_type"=>"bug", "attack"=>"", "defense"=>"", "moves"=>["", ""]}}
+  Rendered static_pages/root.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 622ms (Views: 621.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-07 14:28:40 -0400
+
+
+Started GET "/assets/application.self-6f3c5f000433bfd7fda4aabecf7308978ffd71729e44d6235645078d4594781a.css?body=1" for ::1 at 2015-09-07 14:28:40 -0400
+
+
+Started GET "/assets/jquery.serializejson.min.self-3ac442468b3826db492ffaaea434d85fd719fdc12bf972b262fb32446a51913d.js?body=1" for ::1 at 2015-09-07 14:28:40 -0400
+
+
+Started GET "/assets/underscore.self-b84a7a5ac0e8afc4f176b95606590bfc56044eeae9286097bdee013a6909fde5.js?body=1" for ::1 at 2015-09-07 14:28:40 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-09-07 14:28:40 -0400
+
+
+Started GET "/assets/backbone.self-0977290d5e68ce40d516cd4dc3965586680024e51399f0ee54ee8ed3a99b1506.js?body=1" for ::1 at 2015-09-07 14:28:40 -0400
+
+
+Started GET "/assets/pokedex.self-fafe4b47fef69182ef6d856fee14df4dfb57914ebb99ff9a83db09d2fe2de93c.js?body=1" for ::1 at 2015-09-07 14:28:40 -0400
+
+
+Started GET "/assets/models/pokemon.self-85fe5c8c461b12dd6d7dedc0a1446103a5086d6f403a0599d4aaf2a415d70f5b.js?body=1" for ::1 at 2015-09-07 14:28:40 -0400
+
+
+Started GET "/assets/views/pokemon.self-73076bfbdd316739f4539564cb11d87837a76b211b1309a3ab6ee6f7e8f701b3.js?body=1" for ::1 at 2015-09-07 14:28:40 -0400
+
+
+Started GET "/assets/collections/pokemon.self-05274281e8a8767d531effde3fbbb9863900f4eeab86cb4ca47c386b07e490d4.js?body=1" for ::1 at 2015-09-07 14:28:40 -0400
+
+
+Started GET "/assets/application.self-b5567fb0cb73f9d4ecd4fa178bbc995d9efe2b53da5e5bf4ca587adb307de5b1.js?body=1" for ::1 at 2015-09-07 14:28:40 -0400
+
+
+Started GET "/pokemon" for ::1 at 2015-09-07 14:28:41 -0400
+Processing by PokemonController#index as JSON
+  [1m[36mPokemon Load (1.7ms)[0m  [1mSELECT "pokemons".* FROM "pokemons"[0m
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 1]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.5ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 2]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.9ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 3]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 4]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.2ms)
+  [1m[35mToy Load (0.6ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 5]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.7ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 6]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.3ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 7]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 8]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 9]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.8ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 10]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.4ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 11]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 12]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.9ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 13]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 14]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.4ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 15]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 16]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 17]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.5ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 18]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 19]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 20]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.0ms)
+  [1m[35mToy Load (0.6ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 21]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 22]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 23]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 24]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 25]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 26]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 27]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 28]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.9ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 29]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 30]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.0ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 31]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.4ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 32]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.7ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 33]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 34]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.4ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 35]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.7ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 36]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 37]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 38]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 39]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 40]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 41]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 42]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.7ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 43]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 44]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.2ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 45]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 46]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 47]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 48]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 49]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 50]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 51]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.4ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.0ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 52]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.1ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 53]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 54]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.3ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.0ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 55]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 56]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.4ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 57]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 58]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 59]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.1ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 60]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.3ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 61]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.3ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.1ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 62]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.7ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 63]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 64]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.4ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 65]]
+  Rendered toys/_toy.json.jbuilder (0.3ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.2ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 66]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 67]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 68]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 69]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.4ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 70]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 71]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 72]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 73]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.8ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 74]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 75]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.3ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 76]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 77]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.7ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 78]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 79]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 80]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 81]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 82]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.0ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 83]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 84]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 85]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 86]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 87]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 88]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 89]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 90]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 91]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 92]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 93]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 94]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 95]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 96]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 97]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 98]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 99]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 100]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 101]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 102]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 103]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 104]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 105]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 106]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.4ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 107]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 108]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.3ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 109]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 110]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 111]]
+  Rendered toys/_toy.json.jbuilder (0.3ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 112]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 113]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 114]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 115]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.1ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 116]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.7ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 117]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 118]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 119]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 120]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 121]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 122]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.3ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.1ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 123]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.1ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 124]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 125]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.2ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 126]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.3ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 127]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.4ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 128]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.2ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 129]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.1ms)
+  Rendered pokemon/index.json.jbuilder (577.7ms)
+Completed 200 OK in 589ms (Views: 537.1ms | ActiveRecord: 51.4ms)
+
+
+Started POST "/pokemon" for ::1 at 2015-09-07 14:29:04 -0400
+Processing by PokemonController#create as JSON
+  Parameters: {"name"=>"newpoke4", "image_url"=>"http://upload.wikimedia.org/wikipedia/en/9/92/Pok%C3%A9mon_episode_1_screenshot.png", "poke_type"=>"grass", "attack"=>"3", "defense"=>"4", "moves"=>["qtq", "qyh"], "pokemon"=>{"name"=>"newpoke4", "attack"=>"3", "defense"=>"4", "poke_type"=>"grass", "moves"=>["qtq", "qyh"], "image_url"=>"http://upload.wikimedia.org/wikipedia/en/9/92/Pok%C3%A9mon_episode_1_screenshot.png"}}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (53.2ms)[0m  INSERT INTO "pokemons" ("image_url", "attack", "defense", "name", "poke_type", "moves", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["image_url", "http://upload.wikimedia.org/wikipedia/en/9/92/Pok%C3%A9mon_episode_1_screenshot.png"], ["attack", 3], ["defense", 4], ["name", "newpoke4"], ["poke_type", "grass"], ["moves", "[\"qtq\", \"qyh\"]"], ["created_at", "2015-09-07 18:29:04.340231"], ["updated_at", "2015-09-07 18:29:04.340231"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 130]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.6ms)
+  Rendered pokemon/show.json.jbuilder (2.5ms)
+Completed 200 OK in 80ms (Views: 21.0ms | ActiveRecord: 54.4ms)
+
+
+Started GET "/?pokemon%5Bname%5D=&pokemon%5Bimage_url%5D=&pokemon%5Bpoke_type%5D=bug&pokemon%5Battack%5D=&pokemon%5Bdefense%5D=&pokemon%5Bmoves%5D%5B%5D=&pokemon%5Bmoves%5D%5B%5D=" for ::1 at 2015-09-07 14:35:05 -0400
+Processing by StaticPagesController#root as HTML
+  Parameters: {"pokemon"=>{"name"=>"", "image_url"=>"", "poke_type"=>"bug", "attack"=>"", "defense"=>"", "moves"=>["", ""]}}
+  Rendered static_pages/root.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 296ms (Views: 295.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6f3c5f000433bfd7fda4aabecf7308978ffd71729e44d6235645078d4594781a.css?body=1" for ::1 at 2015-09-07 14:35:06 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-07 14:35:06 -0400
+
+
+Started GET "/assets/jquery.serializejson.min.self-3ac442468b3826db492ffaaea434d85fd719fdc12bf972b262fb32446a51913d.js?body=1" for ::1 at 2015-09-07 14:35:06 -0400
+
+
+Started GET "/assets/models/pokemon.self-91721dfa73f5d4a11fc9ba1816532082b5512f12b64aeb37e9b4de5ab1dd010a.js?body=1" for ::1 at 2015-09-07 14:35:06 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-09-07 14:35:06 -0400
+
+
+Started GET "/assets/underscore.self-b84a7a5ac0e8afc4f176b95606590bfc56044eeae9286097bdee013a6909fde5.js?body=1" for ::1 at 2015-09-07 14:35:06 -0400
+
+
+Started GET "/assets/backbone.self-0977290d5e68ce40d516cd4dc3965586680024e51399f0ee54ee8ed3a99b1506.js?body=1" for ::1 at 2015-09-07 14:35:06 -0400
+
+
+Started GET "/assets/pokedex.self-fafe4b47fef69182ef6d856fee14df4dfb57914ebb99ff9a83db09d2fe2de93c.js?body=1" for ::1 at 2015-09-07 14:35:06 -0400
+
+
+Started GET "/assets/collections/pokemon.self-05274281e8a8767d531effde3fbbb9863900f4eeab86cb4ca47c386b07e490d4.js?body=1" for ::1 at 2015-09-07 14:35:06 -0400
+
+
+Started GET "/assets/views/pokemon.self-73076bfbdd316739f4539564cb11d87837a76b211b1309a3ab6ee6f7e8f701b3.js?body=1" for ::1 at 2015-09-07 14:35:06 -0400
+
+
+Started GET "/assets/application.self-b5567fb0cb73f9d4ecd4fa178bbc995d9efe2b53da5e5bf4ca587adb307de5b1.js?body=1" for ::1 at 2015-09-07 14:35:06 -0400
+
+
+Started GET "/pokemon" for ::1 at 2015-09-07 14:35:06 -0400
+Processing by PokemonController#index as JSON
+  [1m[36mPokemon Load (1.1ms)[0m  [1mSELECT "pokemons".* FROM "pokemons"[0m
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 1]]
+  Rendered toys/_toy.json.jbuilder (0.3ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.7ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 2]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.8ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 3]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.1ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 4]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.7ms)
+  [1m[35mToy Load (0.6ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 5]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 6]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.3ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 7]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 8]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.2ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 9]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 10]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.1ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 11]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.4ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 12]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 13]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.1ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 14]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.7ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 15]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 16]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.7ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 17]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 18]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 19]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 20]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 21]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 22]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 23]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.7ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 24]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 25]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.7ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 26]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.7ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 27]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 28]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 29]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.4ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 30]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (7.0ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 31]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 32]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 33]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 34]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 35]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 36]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 37]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 38]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 39]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 40]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 41]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 42]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 43]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 44]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 45]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 46]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.3ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 47]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 48]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 49]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.9ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 50]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 51]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 52]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.9ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 53]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 54]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 55]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 56]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.5ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 57]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (5.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 58]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.1ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 59]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 60]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 61]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 62]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.1ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 63]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 64]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 65]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 66]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 67]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 68]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 69]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 70]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 71]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 72]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 73]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.4ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 74]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 75]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered pokemon/_pokemon.json.jbuilder (4.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 76]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 77]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 78]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 79]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 80]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 81]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 82]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.4ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 83]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 84]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 85]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 86]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 87]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 88]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 89]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.4ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 90]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 91]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 92]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.6ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 93]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 94]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 95]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 96]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 97]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 98]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 99]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 100]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.8ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 101]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 102]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 103]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 104]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 105]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 106]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 107]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 108]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 109]]
+  Rendered toys/_toy.json.jbuilder (0.2ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 110]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 111]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 112]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 113]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 114]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 115]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 116]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.5ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 117]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 118]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 119]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 120]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.1ms)
+  [1m[35mToy Load (0.4ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 121]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.3ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 122]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.0ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 123]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (3.2ms)
+  [1m[36mToy Load (0.4ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 124]]
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered toys/_toy.json.jbuilder (0.1ms)
+  Rendered pokemon/_pokemon.json.jbuilder (2.9ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 125]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.2ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 126]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.1ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 127]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.4ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 128]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.2ms)
+  [1m[35mToy Load (0.3ms)[0m  SELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1  [["pokemon_id", 129]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.1ms)
+  [1m[36mToy Load (0.3ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 130]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.1ms)
+  Rendered pokemon/index.json.jbuilder (533.9ms)
+Completed 200 OK in 554ms (Views: 503.6ms | ActiveRecord: 50.0ms)
+
+
+Started POST "/pokemon" for ::1 at 2015-09-07 14:35:22 -0400
+Processing by PokemonController#create as JSON
+  Parameters: {"pokemon"=>{"name"=>"poke", "image_url"=>"http://upload.wikimedia.org/wikipedia/en/9/92/Pok%C3%A9mon_episode_1_screenshot.png", "poke_type"=>"normal", "attack"=>"234", "defense"=>"235", "moves"=>["643", "gweth"]}}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pokemons" ("image_url", "attack", "defense", "name", "poke_type", "moves", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["image_url", "http://upload.wikimedia.org/wikipedia/en/9/92/Pok%C3%A9mon_episode_1_screenshot.png"], ["attack", 234], ["defense", 235], ["name", "poke"], ["poke_type", "normal"], ["moves", "[\"643\", \"gweth\"]"], ["created_at", "2015-09-07 18:35:22.742576"], ["updated_at", "2015-09-07 18:35:22.742576"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mToy Load (0.5ms)[0m  [1mSELECT "toys".* FROM "toys" WHERE "toys"."pokemon_id" = $1[0m  [["pokemon_id", 131]]
+  Rendered pokemon/_pokemon.json.jbuilder (1.8ms)
+  Rendered pokemon/show.json.jbuilder (2.7ms)
+Completed 200 OK in 63ms (Views: 57.1ms | ActiveRecord: 1.8ms)

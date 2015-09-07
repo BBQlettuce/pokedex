@@ -22,12 +22,9 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
   },
 
   refreshPokemon: function() {
-    var that = this;
     this.pokemon.fetch({
       success: function(pokedex) {
-        pokedex.models.forEach(function(pokemon) {
-          this.addPokemonToList(pokemon);
-        }.bind(that))
+        pokedex.models.forEach(this.addPokemonToList.bind(this))
       }
     });
   },
@@ -55,13 +52,14 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
   },
 
   createPokemon: function(attributes, callback) {
-    var that = this;
     var pokeToCreate = new Pokedex.Models.Pokemon();
     pokeToCreate.save(attributes, {
       success: function() {
+        debugger;
         this.pokemon.add(pokeToCreate);
         this.addPokemonToList(pokeToCreate);
-      }.bind(that)
+        callback(pokeToCreate);
+      }.bind(this)
     });
   },
 
@@ -69,9 +67,8 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     event.preventDefault();
     var $form = $(event.currentTarget);
     // console.log($form.find(":input"));
-    var formToJson = $form.serializeJSON();
-    console.log(formToJson);
-    this.createPokemon(formToJson);
+    var formAttrs = $form.serializeJSON();
+    this.createPokemon(formAttrs.pokemon, this.renderPokemonDetail.bind(this));
   }
 
 });
