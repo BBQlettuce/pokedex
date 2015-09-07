@@ -142,11 +142,24 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
 
   reassignToy: function(event) {
     event.preventDefault();
-    var $selectBox = $(event.currentTarget);
-    console.log($selectBox);
-    console.log("old pokeid:" + $selectBox.data("pokemonID"));
-    console.log("toyid:" + $selectBox.data("toyID"));
-    console.log("selected poke:" + $selectBox.val());
+    var $selector = $(event.currentTarget);
+
+    var prevOwner = this.pokemon.get($selector.data("pokemonID"));
+    var toy = prevOwner.toys().get($selector.data("toyID"));
+    toy.set("pokemon_id", $selector.val());
+    toy.save({}, {
+      success: function() {
+        prevOwner.toys().remove(toy);
+        this.renderPokemonDetail(prevOwner);
+        this.$toyDetail.empty();
+      }.bind(this)
+    })
+
+    //
+    // console.log($selectBox);
+    // console.log("old pokeid:" + $selectBox.data("pokemonID"));
+    // console.log("toyid:" + $selectBox.data("toyID"));
+    // console.log("selected poke:" + $selectBox.val());
 
 
   }
