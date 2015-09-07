@@ -98,12 +98,32 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     this.$pokeDetail.find(".toys").append($tli);
   },
 
-  renderToyDetail: function(toy) {
+  renderToyDetail: function(toy, toyid, pokeid) {
     $detail = $("<div class='detail'></div>");
     $toyimg = $("<img src=" + toy.get("image_url") + ">");
     $detail.append($toyimg);
 
+    // create select box
+    $selectBox = $("<select></select>");
+    this.pokemon.fetch({
+      success: function(pokedex) {
+        pokedex.models.forEach(function(pokemon) {
+          var $option;
+          if (pokemon.id === pokeid) {
+            $option = $("<option selected></option>");
+          }
+          else {
+            $option = $("<option></option>");
+          }
+          $option.val(pokemon.id);
+          $option.text(pokemon.get('name'));
+          $selectBox.append($option);
+        })
+      }
+    });
+
     this.$toyDetail.html($detail);
+    this.$toyDetail.append($selectBox);
   },
 
   selectToyFromList: function(event) {
@@ -113,6 +133,6 @@ Pokedex.Views.Pokemon = Backbone.View.extend({
     var toys = this.pokemon.get(pokeid).toys();
     var chosenToy = toys.get(toyid);
 
-    this.renderToyDetail(chosenToy);
+    this.renderToyDetail(chosenToy, toyid, pokeid);
   }
 });
